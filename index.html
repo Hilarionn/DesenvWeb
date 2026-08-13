@@ -8,14 +8,14 @@
   </head>
 
   <body>
-    <h1>Bem vindo</h1>
+    <center><h1>Bem vindo</h1>
       <nav>
         <a href="#">Home</a>
         <a href="#">Sobre</a>
         <a href="#">Contato</a>
       </nav>
 
-  <p>Esse é um teste de página HTML.</p>
+  <p>Esse é um teste de página HTML.</p></center>
   <hr/> <!-- Adiciona uma linha separado a página-->
     <h3>Estes são exemplos de textos:</h3>
       <p><i>Este é um <strong>exemplo</strong> de texto em itálico.</i></p>
@@ -70,8 +70,37 @@
 
 </table>
 
-<p> Vídeo:</p>
-<video src= “http://www.youtube.com/watch?v=20SHvU@PKsM” controle></video>
+<p> Vídeo: <i>Não vai puxar por enquanto pois não tem um local definido, em breve adicionarei.</i></p>
+<video src= “C:Localdovideo\video.mp4” controls></video>
+
+<hr/> <!-- Adiciona uma linha separado a página-->
+<hr/> <!-- Adiciona uma linha separado a página-->
+<h1><center>Adicionando um formulário HTML</center></h1>
+<form action="/pagina-processa-dados-do-form" method="post">
+<fieldset>
+<legend>Dados Gerais</legend>
+<label for="nome">Nome:</label>
+<input type="text" minlength="3"
+id="nome" />
+<label for="data_nascimento">Data de nascimento:</label>
+<input type="text"
+id="data_nascimento" />
+<label for="cpf">CPF:</label>
+<input type="cpf" minlength="11"
+id="cpf" />
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+</form>
 
   </body>
 
