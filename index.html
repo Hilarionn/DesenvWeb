@@ -70,12 +70,69 @@
 
 </table>
 
+<h2>Tabela com Cabeçalho e Rodapé</h2>
+
+<table width="100%" border="1">
+
+    <thead>
+        <tr>
+            <th>Mês</th>
+            <th>Horas/Aula</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Junho</td>
+            <td>50</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td>Total</td>
+            <td>50</td>
+        </tr>
+    </tfoot>
+
+</table>
+
+<!-- Tabela Com Colspan -->
+<h2>Tabela Simples</h2>
+<table width="100%" border="1" >
+    <tr>
+        <td>Aluno</td>
+        <td colspan="2">Disciplina</td>
+    </tr>
+
+    <tr>
+        <td>Alex</td>
+        <td>HTML</td>
+        <td>Ambiente Web</td>
+    </tr>
+</table>
+
+<!-- Tabela Com Colspan -->
+<h2>Tabela Simples com Colspan</h2>
+<table width="100%" border="1" >
+    <tr>
+        <td>Aluno</td>
+        <td rowspan="2">Disciplina</td>
+    </tr>
+
+    <tr>
+        <td>Alex</td>
+        <td>HTML</td>
+        <td>Ambiente Web</td>
+    </tr>
+</table>
+
 <p> Vídeo: <i>Não vai puxar por enquanto pois não tem um local definido, em breve adicionarei.</i></p>
 <video src= “C:Localdovideo\video.mp4” controls></video>
 
 <hr/> <!-- Adiciona uma linha separado a página-->
 <hr/> <!-- Adiciona uma linha separado a página-->
-<h1><center>Adicionando um formulário HTML</center></h1>
+<h2><center>Adicionando um formulário HTML</center></h2>
 <form action="/pagina-processa-dados-do-form" method="post">
 <fieldset>
 <legend>Dados Gerais</legend>
@@ -89,15 +146,6 @@ id="data_nascimento" />
 <input type="cpf" minlength="11"
 id="cpf" />
 </fieldset>
-
-
-
-
-
-
-
-
-
 
 
 </form>
